@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ /*My styles here */
+
+html {
+  background-color: #F0EDFA;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, roboto, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, noto, 'segoe ui', arial, sans-serif;
+  font-weight: 500;
+  color: #4B4759;
+}
+
+body {
+  padding-top: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  color: #2233E6;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.999rem;
+  margin-bottom: 1rem;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+@media (min-width: 30em) {
+  h1 {
+    font-size: 2.827rem;
+  }
+
+  ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+  }
+
+  li {
+    flex-basis: 50%;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+}
+
+p {
+  margin-bottom: 2rem;
+  max-width: 66ch;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+  padding: .5rem;
+  background-color: white;
+  border-radius: .1rem;
+  box-shadow: 0 1px 5px 0 rgba(75,71,89,0.20);
+  transition: box-shadow 150ms ease;
+}
+
+img::hover {
+  box-shadow: 0 1px 5px 2px rgba(75,71,89,0.60);
+}
+
+header {
+   max-width: 66ch;
+}
