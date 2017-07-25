@@ -102,7 +102,6 @@ h1 {
   margin-left: -.5rem;
   margin-right: -.5rem;
   margin-bottom: 1.5rem;
-  margin-top: 2rem;
   }
 
   li {
@@ -114,6 +113,8 @@ h1 {
 
 p {
   max-width: 66ch;
+  display: block;
+  margin-bottom: 2rem;
 }
 
 img {
@@ -133,4 +134,8 @@ img:hover {
 
 header {
    max-width: 66ch;
+}
+
+small {
+  font-size: 0.707rem;
 }
